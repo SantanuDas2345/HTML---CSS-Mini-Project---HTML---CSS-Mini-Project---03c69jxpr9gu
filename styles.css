@@ -1,1 +1,125 @@
 
+body {
+    font-family: Roboto, arial;
+    margin: 0;
+    background-color: #eee;
+    height: auto;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1) -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.landing {
+    background-color: rgb(253, 246, 246);
+}
+
+.landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.landing-text h2 {
+    color: rgb(168, 168, 168);
+}
+
+.landing-images {
+    background: url(pexels-shivam-tak-4481330.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+.btn {
+    padding: 10px;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+    transition: background 500ms ease;
+}
+
+.btn:hover {
+    background: rgb(209, 208, 208);
+}
+
+#header {
+    padding: 24px;
+    text-align: center;
+    background:rgb(54, 54, 54);
+    color: rgb(250, 250, 250);
+}
+
+#header h2 {
+    border-left: dotted 15px rgb(236, 234, 234);
+    border-right: dotted 15px rgb(243, 243, 243);
+    display: inline-block;
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .caption {
+    padding:14px;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: rgb(51, 49, 49);
+  }
+
+  footer h3 {
+    font-size: 60px;
+    margin-bottom: 0;
+  }
+
+@media (min-width: 500px) {
+    .landing {
+      display: flex;
+      height: 100%;
+    }
+  
+    .landing-text {
+      height: 100vh;
+    }
+  
+    .landing-image {
+      height: 100vh;
+    }
+  }
+
+ 
